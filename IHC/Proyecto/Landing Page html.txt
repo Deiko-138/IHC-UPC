@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriHidra - Gestión Inteligente del Riego</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>AgriHidra</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#funciones">Funciones</a>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h2>Optimiza el riego, maximiza tus cultivos</h2>
+    <p>AgriHidra es una plataforma inteligente que ayuda a agricultores y técnicos a monitorear la humedad del suelo, gestionar alertas y automatizar el riego.</p>
+    <button>Explorar Demo</button>
+  </section>
+
+  <section class="section" id="funciones">
+    <h3>Principales Funcionalidades</h3>
+    <div class="features">
+      <div class="feature">
+        <img src="icono-monitoreo.png" alt="Monitoreo">
+        <h4>Monitoreo en tiempo real</h4>
+        <p>Visualiza temperatura, humedad y pH desde cualquier dispositivo.</p>
+      </div>
+      <div class="feature">
+        <img src="icono-alertas.png" alt="Alertas">
+        <h4>Alertas Inteligentes</h4>
+        <p>Recibe notificaciones inmediatas ante condiciones críticas de riego.</p>
+      </div>
+      <div class="feature">
+        <img src="icono-reportes.png" alt="Reportes">
+        <h4>Reportes Personalizados</h4>
+        <p>Analiza el historial de datos y toma decisiones basadas en evidencia.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h3>Conecta tus sensores y empieza a optimizar tu riego hoy</h3>
+    <button>Comenzar ahora</button>
+  </section>
+
+  <footer id="contacto">
+    <p>© 2025 AgriHidra | Proyecto desarrollado por equipo AguaViva - UPC</p>
+  </footer>
+
+</body>
+</html>

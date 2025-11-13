@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background-color: #3C6D49;
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: url('campo-agricola.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 25px;
+}
+
+.hero button {
+  background-color: #3C6D49;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #2f5538;
+}
+
+.section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.section h3 {
+  color: #3C6D49;
+  margin-bottom: 25px;
+  font-size: 26px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.feature {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+}
+
+.feature img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.cta {
+  background-color: #eaf6ed;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.cta h3 {
+  font-size: 24px;
+  color: #3C6D49;
+  margin-bottom: 15px;
+}
+
+.cta button {
+  background-color: #3C6D49;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cta button:hover {
+  background-color: #2f5538;
+}
+
+footer {
+  background-color: #3C6D49;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 14px;
+}
